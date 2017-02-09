@@ -1,3 +1,7 @@
+# wiringPi fpr Python has to be installed to run this code (manual build): https://github.com/WiringPi/WiringPi-Python
+# for Pi Zero: reroute the GPIOS following the tutorial on adafruit (https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio)
+# for Pi Zero: you have to rewire the GPIOS with the following command after booting: gpio_alt -p 18 -f 5
+
 from flask import Flask, request
 import requests
 
