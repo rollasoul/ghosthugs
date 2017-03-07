@@ -1,3 +1,6 @@
+# get fb-hugs on 8266 module, control servo movement
+# run with fb_hugs_server.py (server), ngrok (server), hugs_letter_server.py (server) + Facebook Page incl. app and webhook
+
 import socket
 import time
 import machine  
